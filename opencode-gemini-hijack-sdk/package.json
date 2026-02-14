@@ -1,0 +1,21 @@
+{
+  "name": "opencode-gemini-hijack-sdk",
+  "module": "src/index.ts",
+  "version": "1.0.0",
+  "description": "Vercel AI SDK provider for Opencode Gemini session",
+  "main": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ai": "5.0.124",
+    "zod": "^3.23.8"
+  },
+  "bin": {
+    "extract-keys": "./extract-keys.ts"
+  }
+}
